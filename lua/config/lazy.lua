@@ -14,6 +14,32 @@ require("lazy").setup({
     -- { import = "lazyvim.plugins.extras.lang.typescript" },
     -- { import = "lazyvim.plugins.extras.lang.json" },
     -- { import = "lazyvim.plugins.extras.ui.mini-animate" },
+
+    -- setup Tree to the right
+    {
+      "nvim-neo-tree/neo-tree.nvim",
+      opts = {
+        window = {
+          position = "right",
+        },
+      },
+    },
+    {
+      "tokyonight.nvim",
+      opts = {
+        transparent = true,
+        styles = {
+          sidebars = "transparent",
+          floats = "transparent",
+        },
+      },
+    },
+    -- {
+    --   "tokyonight",
+    --   opts = {
+    --     transparent = true,
+    --   },
+    -- },
     -- import/override with your plugins
     { import = "plugins" },
   },
