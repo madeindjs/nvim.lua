@@ -7,3 +7,5 @@ local opt = vim.opt
 opt.wrap = true
 opt.breakindent = true
 opt.breakindentopt = "shift:2"
+
+vim.wo.relativenumber = false
