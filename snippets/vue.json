@@ -1,7 +1,7 @@
 {
   "watch debug": {
     "scope": "vue,javascript,typescript",
-    "body": "watch(${1:value}, () => console.log('## ${TM_FILENAME_BASE} - ${1:value}', ${1:value}.value), { immediate: true });",
+    "body": "watch(${1:value}, () => console.log('## ${TM_FILENAME_BASE} - ${1:value}', toRaw(${1:value}.value)), { immediate: true });",
     "prefix": "watch",
     "description": "Poor's man debugger in Vue"
   },
