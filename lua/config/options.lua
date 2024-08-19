@@ -8,4 +8,9 @@ opt.wrap = true
 opt.breakindent = true
 opt.breakindentopt = "shift:2"
 
-vim.wo.relativenumber = false
+-- vim.api.nvim_create_user_command("Http", function ()
+--   pcall(function ()
+--     vim.fn
+--       "httpyac %"
+--   end)
+-- end, {})
