@@ -7,10 +7,3 @@ local opt = vim.opt
 opt.wrap = true
 opt.breakindent = true
 opt.breakindentopt = "shift:2"
-
--- vim.api.nvim_create_user_command("Http", function ()
---   pcall(function ()
---     vim.fn
---       "httpyac %"
---   end)
--- end, {})

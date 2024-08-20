@@ -10,6 +10,7 @@ return {
       friendly_snippets = false,
     },
   },
+  -- remove some lint rules for Markdown
   {
     "mfussenegger/nvim-lint",
     opts = {
